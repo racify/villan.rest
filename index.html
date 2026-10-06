@@ -1117,7 +1117,7 @@
         var SONG = { title: 'Anemic', artist: 'keepsecrets', src: 'song.mp3', dur: 203 }, LY = [[19, 'She don\'t know my name so she call me Keepsecrets'], [22.5, 'Wake up and I feel so anemic (gothangelz)'], [25.2, 'Everytime we have a fight stop eatin\''], [27.8, 'Do an eight-ball baby like a readin\''], [30.6, 'Walk in and my arms still bleedin\''], [32.7, 'If I know you for a week show weakness'], [35.3, 'Late nights when I\'m up feel sleepless'], [37.6, 'If you want a text back give a reason'], [39.7, 'I lay down in my bed feel it turn to a coffin'], [43, 'I\'ll give it two more weeks \'fore I\'m gone and forgotten'], [49.5, 'You are so goddamn pathetic']];
         var P = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="5.5" y="3" width="5" height="18" rx="2.5"/><rect x="13.5" y="3" width="5" height="18" rx="2.5"/></svg>', L = '<svg viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"><path d=\"M7.5 4.5v15L19.5 12z\"/></svg>', $ = function (i) { return document.getElementById(i) }, au = SONG.src ? new Audio(SONG.src) : null, t = 0, pl = false, li = $('li');
         if (window.LYRICS && window.LYRICS.length) LY = window.LYRICS; else { try { var sv = JSON.parse(localStorage.getItem('lyr') || 'null'); if (sv && sv.length) LY = sv } catch (e) { } }
-      .
+
         var SONGS = [
             { title: SONG.title, artist: SONG.artist, src: SONG.src, dur: SONG.dur, cover: 'cover.png', lyrics: LY },
             { title: 'ur like heroin to me', artist: 'keepsecrets, witchbox', src: 'ur-like-heroin-to-me.mp3', dur: 180, cover: 'cover-heroin.png', lyrics: [] },
